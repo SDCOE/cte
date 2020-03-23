@@ -1703,6 +1703,17 @@ section.lazy-placeholder:after {
 .cid-rKRFxxRMUt .card {
   padding-bottom: 2rem;
 }
+.cid-rU5ubr0RXM {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background: linear-gradient(45deg, #149dcc, #232323);
+}
+.cid-rU5ubr0RXM .btn {
+  margin: 0 0 .5rem 0;
+}
+.cid-rU5ubr0RXM H3 {
+  text-align: right;
+}
 .cid-rKoh4vX2Bb .navbar {
   padding: .5rem 0;
   background: #333333;
