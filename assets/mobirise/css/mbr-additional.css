@@ -1158,8 +1158,22 @@ section.lazy-placeholder:after {
 .cid-rKQ9SHGVVZ .mbr-text {
   color: #767676;
 }
+.cid-rUbWhSbjSf {
+  padding-top: 45px;
+  padding-bottom: 45px;
+  background: linear-gradient(45deg, #ffffff, #149dcc);
+}
+.cid-rUbWhSbjSf .btn {
+  margin: 0 0 .5rem 0;
+}
+.cid-rUbWhSbjSf H2 {
+  color: #2e2e2e;
+}
+.cid-rUbWhSbjSf H3 {
+  color: #2e2e2e;
+}
 .cid-rL29pQzzs8 {
-  padding-top: 30px;
+  padding-top: 75px;
   padding-bottom: 0px;
   background-color: #ffffff;
 }
