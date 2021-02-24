@@ -1248,7 +1248,7 @@ section.lazy-placeholder:after {
 }
 .cid-rNLGgDKRDK {
   padding-top: 15px;
-  padding-bottom: 30px;
+  padding-bottom: 15px;
   background-color: #ffffff;
 }
 .cid-rNLGgDKRDK .card-img {
@@ -1280,6 +1280,46 @@ section.lazy-placeholder:after {
 }
 @media (min-width: 992px) {
   .cid-rNLGgDKRDK .my-col {
+    flex: 0 0 20%;
+    max-width: 20%;
+    padding: 15px;
+    -webkit-flex: 0 0 20%;
+  }
+}
+.cid-spTLuRwCqR {
+  padding-top: 0px;
+  padding-bottom: 45px;
+  background-color: #ffffff;
+}
+.cid-spTLuRwCqR .card-img {
+  background-color: #fff;
+}
+.cid-spTLuRwCqR .card-box {
+  padding: 2rem;
+  background-color: #efefef;
+}
+.cid-spTLuRwCqR h4 {
+  font-weight: 500;
+  margin-bottom: 0;
+  text-align: left;
+}
+.cid-spTLuRwCqR p {
+  text-align: left;
+}
+.cid-spTLuRwCqR .mbr-text {
+  color: #767676;
+}
+.cid-spTLuRwCqR .card-wrapper {
+  height: 100%;
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  transition: box-shadow 0.3s;
+}
+.cid-spTLuRwCqR .card-wrapper:hover {
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.05);
+  transition: box-shadow 0.3s;
+}
+@media (min-width: 992px) {
+  .cid-spTLuRwCqR .my-col {
     flex: 0 0 20%;
     max-width: 20%;
     padding: 15px;
