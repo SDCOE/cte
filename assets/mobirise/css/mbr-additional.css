@@ -20496,8 +20496,8 @@ section.lazy-placeholder:after {
 .cid-spXSoQpvmw {
   background: #2e2e2e;
   padding-top: 75px;
-  padding-bottom: 0px;
-  background: linear-gradient(0deg, #efefef, #2e2e2e);
+  padding-bottom: 15px;
+  background: linear-gradient(0deg, #ffffff, #2e2e2e);
 }
 .cid-spXSoQpvmw .image-block {
   margin: auto;
@@ -20517,9 +20517,8 @@ section.lazy-placeholder:after {
 }
 .cid-sjWk1QNyuV {
   padding-top: 0px;
-  padding-bottom: 75px;
-  background-color: #efefef;
-  background: linear-gradient(#efefef, #2e2e2e);
+  padding-bottom: 60px;
+  background-color: #ffffff;
 }
 .cid-sjWk1QNyuV .carousel-control {
   background: #000;
