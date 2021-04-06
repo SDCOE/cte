@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "CCR",
-    "currentPage": "createchevent.html",
+    "currentPage": "middleschoolCTEsymposium.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -45,7 +45,7 @@
     ],
     "versionFirst": "4.7.6",
     "uniqCompNum": 492,
-    "versionPublish": "5.3.0",
+    "versionPublish": "4.11.6",
     "favicon": false,
     "noImageResize": null,
     "robotsSwitcher": false,
@@ -32971,7 +32971,7 @@
     "createchevent.html": {
       "settings": {
         "meta_descr": "Website Generator Description",
-        "title": "createch",
+        "title": "CreaTech",
         "order": 9
       },
       "components": [
