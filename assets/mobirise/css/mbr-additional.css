@@ -26101,8 +26101,8 @@ section.lazy-placeholder:after {
   width: 73%;
 }
 .cid-stQukoTp0A {
-  padding-top: 90px;
-  padding-bottom: 90px;
+  padding-top: 30px;
+  padding-bottom: 45px;
   background-color: #ffffff;
 }
 .cid-stQukoTp0A .mbr-text {
@@ -26118,86 +26118,9 @@ section.lazy-placeholder:after {
   font-size: 96px;
   color: #149dcc;
 }
-.cid-soJCfdhsnN {
-  padding-top: 15px;
-  padding-bottom: 15px;
-  background-color: #ffffff;
-}
-.cid-soJCfdhsnN .mbr-section-subtitle {
-  color: #767676;
-  font-weight: 300;
-}
-.cid-soJCfdhsnN .mbr-content-text {
-  color: #767676;
-  margin-bottom: 0;
-}
-.cid-soJCfdhsnN .card {
-  word-wrap: break-word;
-  flex-shrink: 0;
-  -webkit-flex-shrink: 0;
-}
-.cid-soJCfdhsnN .img-text {
-  width: 56px;
-  height: 56px;
-  font-size: 28px;
-  border: 2px solid #efefef;
-  border-radius: 50%;
-  color: #149dcc;
-}
-@media (max-width: 991px) {
-  .cid-soJCfdhsnN .img-text {
-    width: 48px;
-    height: 48px;
-    font-size: 24px;
-  }
-}
-@media (min-width: 992px) {
-  .cid-soJCfdhsnN .cards-block {
-    border-top: 2px solid #efefef;
-  }
-}
-.cid-soJCfdhsnN .cards-block .card {
-  border-bottom: 2px solid #efefef;
-  border-radius: 0;
-}
-.cid-soJCfdhsnN .cards-container {
-  display: flex;
-  -webkit-flex-direction: row;
-  flex-direction: row;
-  -webkit-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -webkit-justify-content: center;
-  justify-content: center;
-  word-break: break-word;
-}
-.cid-soJCfdhsnN .media-block {
-  flex-shrink: 0;
-  -webkit-flex-shrink: 0;
-}
-@media (min-width: 992px) {
-  .cid-soJCfdhsnN .media-block {
-    padding-left: 2rem;
-  }
-}
-.cid-soJCfdhsnN .cards-block {
-  flex-basis: 100%;
-  -webkit-flex-basis: 100%;
-}
-@media (max-width: 991px) {
-  .cid-soJCfdhsnN .media-block {
-    flex-basis: 100%;
-    -webkit-flex-basis: 100%;
-    padding-left: 0;
-    padding-bottom: 2rem;
-  }
-}
-.cid-soJCfdhsnN .media-container-row {
-  -webkit-flex-direction: row-reverse;
-  flex-direction: row-reverse;
-}
 .cid-soJCfdVtY5 {
-  padding-top: 45px;
-  padding-bottom: 15px;
+  padding-top: 30px;
+  padding-bottom: 45px;
   background-color: #ffffff;
 }
 .cid-soJCfdVtY5 h4 {
@@ -26236,7 +26159,7 @@ section.lazy-placeholder:after {
   }
 }
 .cid-soJCffgxcs {
-  padding-top: 45px;
+  padding-top: 30px;
   padding-bottom: 45px;
   background-color: #ffffff;
 }
