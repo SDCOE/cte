@@ -30322,7 +30322,7 @@ section.lazy-placeholder:after {
 }
 .cid-sx7XnZKfbh {
   padding-top: 0px;
-  padding-bottom: 90px;
+  padding-bottom: 45px;
   background-color: #ffffff;
 }
 .cid-sx7XnZKfbh h2 {
@@ -30393,6 +30393,14 @@ section.lazy-placeholder:after {
   .cid-sx7XnZKfbh .card-img span {
     font-size: 40px !important;
   }
+}
+.cid-sEB5zR9WVI {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background: linear-gradient(45deg, #dbd4b8, #25aab2);
+}
+.cid-sEB5zR9WVI .btn {
+  margin: 0 0 .5rem 0;
 }
 .cid-sx7VAaxLbE {
   padding-top: 60px;
