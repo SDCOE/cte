@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "CCR",
-    "currentPage": "index.html",
+    "currentPage": "Educators.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -57,9 +57,7 @@
     "cookiesAlert": false,
     "gdpr": false,
     "screenshot": "screenshot.png",
-    "imageResize": true,
-    "publishType": "local",
-    "publishPath": "@PROJECT_PATH@"
+    "imageResize": true
   },
   "pages": {
     "index.html": {
@@ -652,7 +650,7 @@
             }
           },
           "_name": "features17",
-          "_customHTML": "<section class=\"features17\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"3\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Card Background\" name=\"crdBg\" checked>\n        <input type=\"color\" title=\"Card Color\" name=\"crdColor\" value=\"#efefef\" condition=\"crdBg\">\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\" selected>5</option>\n            <option value=\"6\">6</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background7.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container-fluid\">\n        <div class=\"media-container-row\" mbr-cards=\"bootstrap\">\n            <div class=\"card p-3 col-12 col-md-6\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3',\n                             'col-lg-2': cardsAmount == '6',\n                             'my-col': cardsAmount=='5'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <img src=\"@PROJECT_PATH@/assets/images/mbr-500x334.jpg\" alt=\"Mobirise\" title>\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\"><a href=\"Educators.html\"><b>Educator Resources</b></a><b></b></h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">\n                            Take a look at upcoming workshops, archived webinars and linked resources to support CTE educators!</p>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 1\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3',\n                             'col-lg-2': cardsAmount == '6',\n                             'my-col': cardsAmount=='5'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <img src=\"@PROJECT_PATH@/assets/images/screen-shot-2020-12-17-at-1.06.22-pm-527x394.png\" alt=\"Mobirise\" title>\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            <a href=\"essentialskills.html\"><b>Essential Skills</b></a></h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">Strong essential skills are required to enter into and succeed in the workforce. Incorporate the rubrics into your course, download the poster, and enroll in our virtual teacher training!</p>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 2\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3',\n                             'col-lg-2': cardsAmount == '6',\n                             'my-col': cardsAmount=='5'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <a href=\"govirtual.html\"><img src=\"@PROJECT_PATH@/assets/images/go-virtual-cpc-insta-21-1-892x892.png\" alt=\"Mobirise\" title></a>\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            <a href=\"govirtual.html\"><b>Go Virtual Career Pathways Conference</b></a><br><a href=\"govirtual.html\"><b>November 2-4 , 2021</b></a></h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">Register now for our free virtual conference!</p>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 3\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3',\n                             'col-lg-2': cardsAmount == '6',\n                             'my-col': cardsAmount=='5'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <img src=\"@PROJECT_PATH@/assets/images/welding-622x467.jpg\" alt=\"Mobirise\" title>\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            <a href=\"ctemonth.html\"><b>CTE Month Showcase</b></a></h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">See how our county's CTE pathway programs have adapted to distance learning and continue to prepare students for careers in San Diego's economy.</p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 4\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3',\n                             'col-lg-2': cardsAmount == '6',\n                             'my-col': cardsAmount=='5'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <a href=\"instructors.html\"><img src=\"@PROJECT_PATH@/assets/images/12-marine-science-floating-lab-490x327.jpg\" alt=\"Mobirise\" title></a>\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\"><a href=\"middleschoolCTEsymposium.html\"><b>Middle School CTE Symposium Archives</b></a><br></h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">\n                            Learn how to develop and enhance quality middle school pathway programs, including credentialing, WBL, marketing, high school transitions, and more.</p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 5\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3',\n                             'col-lg-2': cardsAmount == '6',\n                             'my-col': cardsAmount=='5'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <img src=\"../_images/background6.jpg\" alt=\"Mobirise\">\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            Mobile Friendly\n                        </h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">\n                            All sites you make with Mobirise are mobile-friendly. You don't have to create a special mobile version of your site.\n                        </p>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"features17\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"3\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Card Background\" name=\"crdBg\" checked>\n        <input type=\"color\" title=\"Card Color\" name=\"crdColor\" value=\"#efefef\" condition=\"crdBg\">\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\" selected>5</option>\n            <option value=\"6\">6</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background7.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container-fluid\">\n        <div class=\"media-container-row\" mbr-cards=\"bootstrap\">\n            <div class=\"card p-3 col-12 col-md-6\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3',\n                             'col-lg-2': cardsAmount == '6',\n                             'my-col': cardsAmount=='5'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <img src=\"@PROJECT_PATH@/assets/images/mbr-500x334.jpg\" alt=\"Mobirise\" title>\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\"><a href=\"Educators.html\"><b>Educator Resources</b></a><b></b></h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">\n                            Take a look at upcoming workshops, archived webinars and linked resources to support CTE educators!</p>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 1\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3',\n                             'col-lg-2': cardsAmount == '6',\n                             'my-col': cardsAmount=='5'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <img src=\"@PROJECT_PATH@/assets/images/screen-shot-2020-12-17-at-1.06.22-pm-527x394.png\" alt=\"Mobirise\" title>\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            <a href=\"essentialskills.html\"><b>Essential Skills</b></a></h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">Strong essential skills are required to enter into and succeed in the workforce. Incorporate the rubrics into your course, download the poster, and enroll in our virtual teacher training!</p>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 2\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3',\n                             'col-lg-2': cardsAmount == '6',\n                             'my-col': cardsAmount=='5'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <a href=\"govirtual.html\"><img src=\"@PROJECT_PATH@/assets/images/go-virtual-cpc-insta-21-1-892x892.png\" alt=\"Mobirise\" title></a>\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            <a href=\"govirtual.html\"><b>Go Virtual Career Pathways Conference</b></a><br><a href=\"govirtual.html\"><b>November 2-4 , 2021</b></a></h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">We're preparing for the 2021 conference - registration coming soon! Our archived sessions from 2020 are still available.</p>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 3\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3',\n                             'col-lg-2': cardsAmount == '6',\n                             'my-col': cardsAmount=='5'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <img src=\"@PROJECT_PATH@/assets/images/welding-622x467.jpg\" alt=\"Mobirise\" title>\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            <a href=\"ctemonth.html\"><b>CTE Month Showcase</b></a></h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">See how our county's CTE pathway programs have adapted to distance learning and continue to prepare students for careers in San Diego's economy.</p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 4\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3',\n                             'col-lg-2': cardsAmount == '6',\n                             'my-col': cardsAmount=='5'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <a href=\"instructors.html\"><img src=\"@PROJECT_PATH@/assets/images/12-marine-science-floating-lab-490x327.jpg\" alt=\"Mobirise\" title></a>\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\"><a href=\"middleschoolCTEsymposium.html\"><b>Middle School CTE Symposium Archives</b></a><br></h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">\n                            Learn how to develop and enhance quality middle school pathway programs, including credentialing, WBL, marketing, high school transitions, and more.</p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 5\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3',\n                             'col-lg-2': cardsAmount == '6',\n                             'my-col': cardsAmount=='5'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <img src=\"../_images/background6.jpg\" alt=\"Mobirise\">\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            Mobile Friendly\n                        </h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">\n                            All sites you make with Mobirise are mobile-friendly. You don't have to create a special mobile version of your site.\n                        </p>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "sjsLpt8Avi",
           "_anchor": "features17-93",
           "_protectedParams": [],
@@ -839,11 +837,11 @@
           "_name": "content10",
           "_customHTML": "<section class=\"mbr-section article content10\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"66\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"25\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#073b4c\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-white mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".section-text\" mbr-text>\n                    Are you passionate about Career Ready Education? Consider a career teaching CTE! Industry professionals can get a credential on the job while teaching Career Technical Education courses.&nbsp;<br><a href=\"Careers.html\"><u><b>Learn more about Careers in CTE</b></u></a></div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n    </div>\n</section>",
           "_cid": "sJ1UcTgyRm",
-          "_anchor": "content10-f9",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {}
+          "_params": {},
+          "_anchor": "content10-f9"
         },
         {
           "alias": false,
@@ -1027,7 +1025,7 @@
       "settings": {
         "meta_descr": "CTE Resources to plan for a Covid-19 impacted school year. ",
         "title": "COVID-19",
-        "order": 38
+        "order": 39
       },
       "components": [
         {
@@ -2037,7 +2035,7 @@
       "settings": {
         "meta_descr": "Web Site Builder Description",
         "title": "CTE Instructors Network",
-        "order": 32
+        "order": 33
       },
       "components": [
         {
@@ -2886,7 +2884,7 @@
       "settings": {
         "meta_descr": "Web Site Maker Description",
         "title": "Arts Media and Entertainment",
-        "order": 18
+        "order": 19
       },
       "components": [
         {
@@ -3578,7 +3576,7 @@
       "settings": {
         "meta_descr": "Web Site Maker Description",
         "title": "Business and Finance",
-        "order": 20
+        "order": 21
       },
       "components": [
         {
@@ -4270,7 +4268,7 @@
       "settings": {
         "meta_descr": "Web Site Maker Description",
         "title": "Edu, Child Dev, and Family Services",
-        "order": 21
+        "order": 22
       },
       "components": [
         {
@@ -4904,7 +4902,7 @@
       "settings": {
         "meta_descr": "Web Site Maker Description",
         "title": "Engineering and Architecture",
-        "order": 22
+        "order": 23
       },
       "components": [
         {
@@ -5654,7 +5652,7 @@
       "settings": {
         "meta_descr": "Web Site Maker Description",
         "title": "Building and Construction",
-        "order": 19
+        "order": 20
       },
       "components": [
         {
@@ -6346,7 +6344,7 @@
       "settings": {
         "meta_descr": "Web Site Maker Description",
         "title": "Agriculture and Natural Resources",
-        "order": 17
+        "order": 18
       },
       "components": [
         {
@@ -7042,7 +7040,7 @@
       "settings": {
         "meta_descr": "Web Site Maker Description",
         "title": "Energy, Environment, and Utilities",
-        "order": 23
+        "order": 24
       },
       "components": [
         {
@@ -7676,7 +7674,7 @@
       "settings": {
         "meta_descr": "Web Site Maker Description",
         "title": "Fashion and Interior Design",
-        "order": 24
+        "order": 25
       },
       "components": [
         {
@@ -8310,7 +8308,7 @@
       "settings": {
         "meta_descr": "Web Site Maker Description",
         "title": "Health Sci and Med Tech",
-        "order": 25
+        "order": 26
       },
       "components": [
         {
@@ -9118,7 +9116,7 @@
       "settings": {
         "meta_descr": "Web Site Maker Description",
         "title": "Hospitality, Tourism, Rec",
-        "order": 26
+        "order": 27
       },
       "components": [
         {
@@ -9868,7 +9866,7 @@
       "settings": {
         "meta_descr": "Web Site Maker Description",
         "title": "ICT",
-        "order": 27
+        "order": 28
       },
       "components": [
         {
@@ -10560,7 +10558,7 @@
       "settings": {
         "meta_descr": "Web Site Maker Description",
         "title": "Manufacturing and Prod Dev",
-        "order": 28
+        "order": 29
       },
       "components": [
         {
@@ -11252,7 +11250,7 @@
       "settings": {
         "meta_descr": "Web Site Maker Description",
         "title": "Marketing, Sales, and Services",
-        "order": 29
+        "order": 30
       },
       "components": [
         {
@@ -11886,7 +11884,7 @@
       "settings": {
         "meta_descr": "Web Site Maker Description",
         "title": "Public Services",
-        "order": 30
+        "order": 31
       },
       "components": [
         {
@@ -12636,7 +12634,7 @@
       "settings": {
         "meta_descr": "Web Site Maker Description",
         "title": "Transportation",
-        "order": 31
+        "order": 32
       },
       "components": [
         {
@@ -13270,7 +13268,7 @@
       "settings": {
         "meta_descr": "Web Creator Description",
         "title": "Educators",
-        "order": 37
+        "order": 38
       },
       "components": [
         {
@@ -13788,7 +13786,7 @@
             }
           },
           "_name": "features4",
-          "_customHTML": "<section class=\"features4\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        \n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"color\" title=\"Cards Bg\" name=\"cardsBg\" value=\"#efefef\">\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\" selected>1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background5.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#cebfaf\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>     \n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"media-container-row\" mbr-cards=\"bootstrap\">\n            <div class=\"card p-3 col-12 col-md-6\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper media-container-row media-container-row\">\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">New CTE Teacher Welcome</h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">Rescheduled: October 6, 4-5pm<br>Dive into resources and strategies to support your work as a teacher that is new to CTE!<br><a href=\"https://sdcoe.zoom.us/meeting/register/tZEpcOmvrzgsEtxgcazGLeyq0g0XWhEIDMWq\" target=\"_blank\"><u><b>Register Now</b></u></a><br><u><b><a href=\"https://sdcoe.zoom.us/meeting/register/tZEpcOmvrzgsEtxgcazGLeyq0g0XWhEIDMWq\" target=\"_blank\"><br></a></b></u>Serving San Diego County Educators<a href=\"https://sdcoe.zoom.us/meeting/register/tZEpcOmvrzgsEtxgcazGLeyq0g0XWhEIDMWq\" target=\"_blank\" style=\"font-weight: bold; text-decoration: underline;\"><br></a><br></p>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6 col-12 col-md-6\" mbr-if=\"cardsAmount > 1\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper media-container-row\">\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">CTE Sector Collaboration&nbsp;</h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">September 27-29, 3-5pm<br>Join other teachers in your pathway to discuss problems of practice, share what's working and plan together! <br>Collaborations take place in zoom with breakouts by topic taught.&nbsp;<br><a href=\"https://drive.google.com/file/d/1vJaWemBhTtAuz_mX70erJNFl5fV5Sgkc/view\" target=\"_blank\"><b><u>Find your date and register now</u></b></a><br><br>Open to educators from across the state and beyond</p>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 2\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper media-container-row\">\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\"><a href=\"https://bit.ly/PBLseries\" target=\"_blank\"><b>Power Up PBL Workshop Series</b></a></h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">Project Based Learning workshops designed to increase engagement, rigor and career relevance in PBL.&nbsp;<br>Begins Oct 5, 2021<br><a href=\"https://bit.ly/PBLseries\" target=\"_blank\"><b><u>Register Now</u></b></a><br><br>Priority registration for San Diego County Educators<a href=\"https://bit.ly/PBLseries\" target=\"_blank\" style=\"text-decoration: underline; font-weight: bold;\"><br></a><br></p>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 3\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper media-container-row\">\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            CTE Leaders Network</h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\"></p>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"features4\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        \n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"color\" title=\"Cards Bg\" name=\"cardsBg\" value=\"#efefef\">\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected>3</option>\n            <option value=\"4\">4</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background5.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#cebfaf\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>     \n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"media-container-row\" mbr-cards=\"bootstrap\">\n            <div class=\"card p-3 col-12 col-md-6\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper media-container-row media-container-row\">\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">New CTE Teacher Welcome</h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">Rescheduled: October 6, 4-5pm<br>Dive into resources and strategies to support your work as a teacher that is new to CTE!<br><a href=\"https://sdcoe.zoom.us/meeting/register/tZEpcOmvrzgsEtxgcazGLeyq0g0XWhEIDMWq\" target=\"_blank\"><u><b>Register Now</b></u></a><br><u><b><a href=\"https://sdcoe.zoom.us/meeting/register/tZEpcOmvrzgsEtxgcazGLeyq0g0XWhEIDMWq\" target=\"_blank\"><br></a></b></u>Serving San Diego County Educators<a href=\"https://sdcoe.zoom.us/meeting/register/tZEpcOmvrzgsEtxgcazGLeyq0g0XWhEIDMWq\" target=\"_blank\" style=\"font-weight: bold; text-decoration: underline;\"><br></a><br></p>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6 col-12 col-md-6\" mbr-if=\"cardsAmount > 1\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper media-container-row\">\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">CTE Sector Collaboration&nbsp;</h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">September 27-29, 3-5pm<br>Join other teachers in your pathway to discuss problems of practice, share what's working and plan together! <br>Collaborations take place in zoom with breakouts by topic taught.&nbsp;<br><a href=\"https://drive.google.com/file/d/1vJaWemBhTtAuz_mX70erJNFl5fV5Sgkc/view\" target=\"_blank\"><b><u>Find your date and register now</u></b></a><br><br>Open to educators from across the state and beyond</p>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 2\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper media-container-row\">\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\"><a href=\"https://bit.ly/PBLseries\" target=\"_blank\"><b>Power Up PBL Workshop Series</b></a></h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">Project Based Learning workshops designed to increase engagement, rigor and career relevance in PBL.&nbsp;<br>Begins Oct 5, 2021<br><a href=\"https://bit.ly/PBLseries\" target=\"_blank\"><b><u>Register Now</u></b></a><br><br>Priority registration for San Diego County Educators<a href=\"https://bit.ly/PBLseries\" target=\"_blank\" style=\"text-decoration: underline; font-weight: bold;\"><br></a><br></p>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 3\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper media-container-row\">\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            CTE Leaders Network</h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\"></p>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "sGsHnImLJq",
           "_anchor": "features4-en",
           "_protectedParams": [],
@@ -13845,7 +13843,7 @@
             }
           },
           "_name": "features4",
-          "_customHTML": "<section class=\"features4\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"1\">\n        \n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"color\" title=\"Cards Bg\" name=\"cardsBg\" value=\"#efefef\">\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected>3</option>\n            <option value=\"4\">4</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background5-1.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#cebfaf\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>     \n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"media-container-row\" mbr-cards=\"bootstrap\">\n            <div class=\"card p-3 col-12 col-md-6\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper media-container-row media-container-row\">\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\"><b>CTE Leaders Network</b></h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">First wednesday of each month, 10am.<br>Open to CTE Leaders in San Diego County <br><br>Contact <a href=\"mailto:jewyl.clarke@sdcoe.net\">Jewyl Alderson Clarke</a> for more information<br><b><br></b></p>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6 col-12 col-md-6\" mbr-if=\"cardsAmount > 1\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper media-container-row\">\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\"><b>SWP Round 4 Supports</b><br><b></b></h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">Deadline, Oct 15</p><p><u style=\"font-size: 1rem;\"><a href=\"https://myworkforceconnection.org/strong-workforce-program/k12-swp-cteig/\" target=\"_blank\"><b>Regional Consortium K12 SWP Resource Page and Workshop Archives</b></a></u><br></p><p><b>Leveraging CCI Equity Data to Inform CTE Grant Writing&nbsp;</b><br><u><a href=\"https://youtu.be/CzFiKVqC75s\" target=\"_blank\">Recording</a></u>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<a href=\"https://bit.ly/CCIgrant\" target=\"_blank\"><u>Slide Deck</u></a><br><br><b>K12 SWP Round 4&nbsp;</b><br><b> Grant Writing Workshops </b><br><a href=\"https://youtu.be/KTMo0wRV7bI\" target=\"_blank\"><u>Recording</u></a>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<u><a href=\"https://drive.google.com/file/d/1aL5NNslZ65PUCbe0nSqlrrFh1NitxEIQ/view\" target=\"_blank\">Slide Deck</a></u></p><p></p>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 2\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper media-container-row\">\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            <a href=\"govirtual.html\"><b>GoVirtual! Career Pathways Conference</b></a></h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                            November 2-4, 2021<br><a href=\"https://docs.google.com/forms/d/e/1FAIpQLSe5CNB7Iz1k6o-AFcwGItpc-n5DjLGTWUXRmNEBqfhYjicGmA/viewform?usp=sf_link\" target=\"_blank\"><u>Register now</u></a><br><br>Open to educators from across the state and beyond<a href=\"https://bit.ly/GoVirturalPresenter2021\" target=\"_blank\" style=\"font-weight: bold; text-decoration: underline;\"><br></a><br><br></p>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 3\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper media-container-row\">\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            CTE Leaders Network</h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\"></p>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"features4\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"1\">\n        \n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"color\" title=\"Cards Bg\" name=\"cardsBg\" value=\"#efefef\">\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected>3</option>\n            <option value=\"4\">4</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background5-1.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#cebfaf\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>     \n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"media-container-row\" mbr-cards=\"bootstrap\">\n            <div class=\"card p-3 col-12 col-md-6\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper media-container-row media-container-row\">\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\"><b>CTE Leaders Network</b></h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">First wednesday of each month, 10am.<br>Open to CTE Leaders in San Diego County <br><br>Contact <a href=\"mailto:jewyl.clarke@sdcoe.net\">Jewyl Alderson Clarke</a> for more information<br><b><br></b></p>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6 col-12 col-md-6\" mbr-if=\"cardsAmount > 1\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper media-container-row\">\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\"><b>SWP Round 4 Supports</b><br><b></b></h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\"><p><u style=\"font-size: 1rem;\"><a href=\"https://myworkforceconnection.org/strong-workforce-program/k12-swp-cteig/\" target=\"_blank\"><b>Regional Consortium K12 SWP Resource Page and Workshop Archives</b></a></u><br></p><p><b>Leveraging CCI Equity Data to Inform CTE Grant Writing&nbsp;</b><br><u><a href=\"https://youtu.be/CzFiKVqC75s\" target=\"_blank\">Recording</a></u>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<a href=\"https://bit.ly/CCIgrant\" target=\"_blank\"><u>Slide Deck</u></a><br><br><b>K12 SWP Round 4&nbsp;</b><br><b> Grant Writing Workshops </b><br><a href=\"https://youtu.be/KTMo0wRV7bI\" target=\"_blank\"><u>Recording</u></a>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<u><a href=\"https://drive.google.com/file/d/1aL5NNslZ65PUCbe0nSqlrrFh1NitxEIQ/view\" target=\"_blank\">Slide Deck</a></u></p></p>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 2\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper media-container-row\">\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            <a href=\"govirtual.html\"><b>GoVirtual! Career Pathways Conference</b></a></h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                            November 2-4, 2021<br><a href=\"https://docs.google.com/forms/d/e/1FAIpQLSe5CNB7Iz1k6o-AFcwGItpc-n5DjLGTWUXRmNEBqfhYjicGmA/viewform?usp=sf_link\" target=\"_blank\"><u>Register now</u></a><br>Share your best practices:<br><b><u><a href=\"https://bit.ly/GoVirturalPresenter2021\" target=\"_blank\">Call for Presenters</a></u></b><br><br>Open to educators from across the state and beyond<a href=\"https://bit.ly/GoVirturalPresenter2021\" target=\"_blank\" style=\"font-weight: bold; text-decoration: underline;\"><br></a><br><br></p>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 3\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper media-container-row\">\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            CTE Leaders Network</h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\"></p>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_anchor": "features4-ep",
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
@@ -14480,7 +14478,7 @@
       "settings": {
         "meta_descr": "Career Pathways Conference Oct 14-15 2020",
         "title": "Go Virtual: Career Pathways Conference",
-        "order": 2
+        "order": 17
       },
       "components": [
         {
@@ -14948,7 +14946,7 @@
             }
           },
           "_name": "header3",
-          "_customHTML": "<section class=\"header3\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"8\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n    \n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"80\">\n        <input type=\"checkbox\" title=\"Media On Left/Right\" name=\"reverseContent\" checked>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/mbr-3.jpg\" selected parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#149dcc\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n\n        <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"bg.type == 'color'\" checked>\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#232323\" condition=\"gradientBg && bg.type == 'color'\">\n        \n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                <img src=\"@PROJECT_PATH@/assets/images/go-virtual-cpc-insta-21-1-892x8920.png\" alt=\"Mobirise\" title>\n            </div>\n\n            <div class=\"media-content\">\n                <h1 class=\"mbr-section-title mbr-white pb-3 mbr-fonts-style\" mbr-if=\"showTitle\" mbr-theme-style=\"display-1\"><b>\n                    Go Virtual!</b><br>Career Pathways Conference</h1>\n                <h3 class=\"mbr-section-subtitle align-left mbr-white mbr-light pb-3 mbr-fonts-style\" mbr-if=\"showSubTitle\" mbr-theme-style=\"display-2\">Nov 2-4 2021<br><u><a href=\"https://docs.google.com/forms/d/e/1FAIpQLSe5CNB7Iz1k6o-AFcwGItpc-n5DjLGTWUXRmNEBqfhYjicGmA/viewform?usp=sf_link\" target=\"_blank\"><b>Registration</b></a></u><br><u></u></h3>\n                <div class=\"mbr-section-text mbr-white pb-3 \">\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\" mbr-theme-style=\"display-5\"><b>#GoVirtualCTE</b><br></p>\n                </div>\n                <div class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-primary\" href=\"http://sdcoe.k12oms.org/2378-190459\" data-app-placeholder=\"Type Text\" target=\"_blank\">REGISTER NOW</a>\n                    <a class=\"btn btn-md btn-secondary\" href=\"https://docs.google.com/forms/d/e/1FAIpQLSdN7y9QjjW-zOk5zb6QjANw5jPXWxeocB4YV5NNVv0C4mBKsw/viewform?usp=sf_link\" data-app-placeholder=\"Type Text\" target=\"_blank\">CALL FOR PRESENTERS</a></div>\n            </div>\n        </div>\n    </div>\n\n</section>",
+          "_customHTML": "<section class=\"header3\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"8\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n    \n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"80\">\n        <input type=\"checkbox\" title=\"Media On Left/Right\" name=\"reverseContent\" checked>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/mbr-3.jpg\" selected parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#149dcc\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n\n        <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"bg.type == 'color'\" checked>\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#232323\" condition=\"gradientBg && bg.type == 'color'\">\n        \n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                <img src=\"@PROJECT_PATH@/assets/images/go-virtual-cpc-insta-21-1-892x8920.png\" alt=\"Mobirise\" title>\n            </div>\n\n            <div class=\"media-content\">\n                <h1 class=\"mbr-section-title mbr-white pb-3 mbr-fonts-style\" mbr-if=\"showTitle\" mbr-theme-style=\"display-1\"><b>\n                    Go Virtual!</b><br>Career Pathways Conference</h1>\n                <h3 class=\"mbr-section-subtitle align-left mbr-white mbr-light pb-3 mbr-fonts-style\" mbr-if=\"showSubTitle\" mbr-theme-style=\"display-2\">Nov 2-4 2021<br><u><a href=\"https://docs.google.com/forms/d/e/1FAIpQLSe5CNB7Iz1k6o-AFcwGItpc-n5DjLGTWUXRmNEBqfhYjicGmA/viewform?usp=sf_link\" target=\"_blank\"><b>Registration</b></a></u><br>Share your best practices<br><u><a href=\"https://docs.google.com/forms/d/e/1FAIpQLSdc9Wd-_y489Y18-4LKebwFsk_xlwVhYKnToVS-fvb4rIkHEg/viewform?usp=sf_link\" target=\"_blank\"><b>Call for Presenters</b></a></u></h3>\n                <div class=\"mbr-section-text mbr-white pb-3 \">\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\" mbr-theme-style=\"display-5\"><b>#GoVirtualCTE</b><br></p>\n                </div>\n                <div class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-primary\" href=\"http://sdcoe.k12oms.org/2378-190459\" data-app-placeholder=\"Type Text\" target=\"_blank\">REGISTER NOW</a>\n                    <a class=\"btn btn-md btn-secondary\" href=\"https://docs.google.com/forms/d/e/1FAIpQLSdN7y9QjjW-zOk5zb6QjANw5jPXWxeocB4YV5NNVv0C4mBKsw/viewform?usp=sf_link\" data-app-placeholder=\"Type Text\" target=\"_blank\">CALL FOR PRESENTERS</a></div>\n            </div>\n        </div>\n    </div>\n\n</section>",
           "_cid": "s7G2XwjMY2",
           "_anchor": "header3-6e",
           "_protectedParams": [],
@@ -14967,7 +14965,7 @@
             }
           },
           "_name": "content4",
-          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">2021 Theme: <br><b>CTE in the Age of Disruption</b></h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\">COVID-19 has disrupted both the workplace and our classrooms. How do we incorporate innovative practices to meet the needs of students and the world of work in the changing world?<br><br><a href=\"https://docs.google.com/forms/d/e/1FAIpQLSe5CNB7Iz1k6o-AFcwGItpc-n5DjLGTWUXRmNEBqfhYjicGmA/viewform?usp=sf_link\" target=\"_blank\"><b><u>Register Now for this Free Virtual Conference</u></b></a><br><br></h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">2021 Theme: <br><b>CTE in the Age of Disruption</b></h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\">COVID-19 has disrupted both the workplace and our classrooms. How do we incorporate innovative practices to meet the needs of students and the world of work in the changing world?<br><br><a href=\"https://docs.google.com/forms/d/e/1FAIpQLSe5CNB7Iz1k6o-AFcwGItpc-n5DjLGTWUXRmNEBqfhYjicGmA/viewform?usp=sf_link\" target=\"_blank\"><b><u>Register Now for this Free Virtual Conference</u></b></a><br><br>Share your innovative practices! <br>The <a href=\"https://docs.google.com/forms/d/e/1FAIpQLSdc9Wd-_y489Y18-4LKebwFsk_xlwVhYKnToVS-fvb4rIkHEg/viewform?usp=sf_link\" target=\"_blank\"><u>Call for Presenters</u></a> is Open - <a href=\"https://docs.google.com/forms/d/e/1FAIpQLSdc9Wd-_y489Y18-4LKebwFsk_xlwVhYKnToVS-fvb4rIkHEg/viewform?usp=sf_link\" target=\"_blank\"><u>submit a proposal</u></a> by Sept 24.&nbsp;<br><br>This virtual conference will be offered at no cost to attendees.<br>Registration Coming Soon!<br></h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "sGsrXPPVx4",
           "_anchor": "content4-em",
           "_protectedParams": [],
@@ -15002,7 +15000,7 @@
             }
           },
           "_name": "content9",
-          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"25\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#149dcc\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".section-text\" mbr-text>The Go Virtual! Career Pathways Conference hosted by the San Diego County Office of Education was a great way to hear from practitioners in the field and find new strategies to bring back to your distance or blended virtual learning environment.<br><div><br></div><div>You can access the 2020 conference archives at the Sched links below.</div><div>Just go into any session and select \"video stream\" to access the archived video in YouTube.&nbsp;</div><br>2020 Conference Archive Links:<br>Educator Experience  <a href=\"https://govirtualcareerpathwayconfe2020.sched.com/\" target=\"_blank\">https://govirtualcareerpathwayconfe2020.sched.com/</a><br>Student Experience:&nbsp;<a href=\"https://govirtualstudents.sched.com/\" target=\"_blank\">https://govirtualstudents.sched.com/&nbsp;</a><br><br><div>Please see our <a href=\"https://docs.google.com/document/d/1SvQfiMjoGL5CXpipr7_CqWXM9h3bs8UhcVEDE-vlVb8/edit?usp=sharing\" target=\"_blank\"><u><b>FAQ Guide</b></u></a> for answers to Frequently Asked Questions. &nbsp;</div></div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"25\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#149dcc\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".section-text\" mbr-text>The Go Virtual! Career Pathways Conference hosted by the San Diego County Office of Education was a great way to hear from practitioners in the field and find new strategies to bring back to your distance or blended virtual learning environment.<br><div><br></div><div>You can access the 2020 conference archives at the Sched links below.</div><div>Just go into any session and select \"video stream\" to access the archived video in YouTube.&nbsp;</div><br>Archive Links:<br>Educator Experience  <a href=\"https://govirtualcareerpathwayconfe2020.sched.com/\" target=\"_blank\">https://govirtualcareerpathwayconfe2020.sched.com/</a><br>Student Experience:&nbsp;<a href=\"https://govirtualstudents.sched.com/\" target=\"_blank\">https://govirtualstudents.sched.com/&nbsp;</a><br><br><div>Please see our <a href=\"https://docs.google.com/document/d/1SvQfiMjoGL5CXpipr7_CqWXM9h3bs8UhcVEDE-vlVb8/edit?usp=sharing\" target=\"_blank\"><u><b>FAQ Guide</b></u></a> for answers to Frequently Asked Questions. &nbsp;</div></div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
           "_cid": "s7FZOiw3li",
           "_anchor": "content9-69",
           "_protectedParams": [],
@@ -16029,7 +16027,7 @@
       "settings": {
         "meta_descr": "Website Generator Description",
         "title": "About Us",
-        "order": 35
+        "order": 36
       },
       "components": [
         {
@@ -16930,7 +16928,7 @@
       "settings": {
         "meta_descr": "Website Generator Description",
         "title": "The Future is Fashion",
-        "order": 6
+        "order": 5
       },
       "components": [
         {
@@ -18262,7 +18260,7 @@
       "settings": {
         "meta_descr": "Website Builder Description",
         "title": "Employers",
-        "order": 36
+        "order": 37
       },
       "components": [
         {
@@ -19020,7 +19018,7 @@
       "settings": {
         "meta_descr": "Website Generator Description",
         "title": "Students",
-        "order": 39
+        "order": 40
       },
       "components": [
         {
@@ -20057,7 +20055,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Master Chefs",
-        "order": 33
+        "order": 34
       },
       "components": [
         {
@@ -21286,7 +21284,7 @@
       "settings": {
         "meta_descr": "Information to help you understand the CCI and create a plan to improve it!",
         "title": "College/Career Indicator",
-        "order": 5
+        "order": 4
       },
       "components": [
         {
@@ -22221,7 +22219,7 @@
       "settings": {
         "meta_descr": "Web Page Builder Description",
         "title": "Sector Resources",
-        "order": 4
+        "order": 3
       },
       "components": [
         {
@@ -22956,7 +22954,7 @@
       "settings": {
         "meta_descr": "Website Generator Description",
         "title": "Resilient Careers: Explore Your Future in Health and Biotech",
-        "order": 10
+        "order": 9
       },
       "components": [
         {
@@ -24392,7 +24390,7 @@
       "settings": {
         "meta_descr": "Website Generator Description",
         "title": "CTE Month",
-        "order": 8
+        "order": 7
       },
       "components": [
         {
@@ -26334,7 +26332,7 @@
       "settings": {
         "meta_descr": "Website Generator Description",
         "title": "Careers in Public Service",
-        "order": 12
+        "order": 11
       },
       "components": [
         {
@@ -27714,7 +27712,7 @@
       "settings": {
         "meta_descr": "Website Generator Description",
         "title": "Careers in Community Service",
-        "order": 7
+        "order": 6
       },
       "components": [
         {
@@ -29027,7 +29025,7 @@
       "settings": {
         "meta_descr": "Website Generator Description",
         "title": "Essential Skills Showcase",
-        "order": 9
+        "order": 8
       },
       "components": [
         {
@@ -31549,7 +31547,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "LVLL",
-        "order": 34
+        "order": 35
       },
       "components": [
         {
@@ -32660,7 +32658,7 @@
       "settings": {
         "meta_descr": "Website Generator Description",
         "title": "createch",
-        "order": 11
+        "order": 10
       },
       "components": [
         {
@@ -35348,7 +35346,7 @@
       "settings": {
         "meta_descr": "Website Builder Description",
         "title": "WBL Tools",
-        "order": 3
+        "order": 2
       },
       "components": [
         {
@@ -36802,7 +36800,7 @@
       "settings": {
         "meta_descr": "Website Generator Description",
         "title": "Grow Your Career",
-        "order": 13
+        "order": 12
       },
       "components": [
         {
