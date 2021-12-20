@@ -22537,7 +22537,7 @@ section.lazy-placeholder:after {
   color: #c1c1c1 !important;
 }
 .cid-sjVUuGfGNf {
-  background-image: url("../../../assets/images/k9-640x371.jpeg");
+  background-image: url("../../../assets/images/k9-2-640x371.jpeg");
 }
 .cid-sjVUuGfGNf h1 {
   color: #616161;
@@ -29345,6 +29345,9 @@ section.lazy-placeholder:after {
 }
 .cid-ssIABKeSDy .content-slider-wrap {
   width: 73%;
+}
+.cid-ssIABKeSDy P {
+  text-align: center;
 }
 .cid-ssIABL0xp0 {
   padding-top: 15px;
